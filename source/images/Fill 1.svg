@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="524px" viewBox="0 0 1200 524" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="58.745136%" y2="58.1692039%" id="linearGradient-1">
+            <stop stop-color="#BA69C8" offset="0%"></stop>
+            <stop stop-color="#A035B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fill-1" fill="url(#linearGradient-1)">
+            <path d="M0,357.75178 C0,357.75178 51.9031973,361.057551 77.7092617,383.093682 C103.516326,405.128808 185.806665,457.55995 370.322026,410.897329 C400.34108,403.914013 430.704215,398.061089 461.156372,393.368703 C542.744545,380.796724 618.931449,400.362067 697.4459,420.717178 C757.303966,436.236217 816.633909,453.968817 875.02263,474.38522 C890.519272,479.804073 905.946898,485.419865 921.289503,491.260731 C1081.2901,552.182379 1200,509.40831 1200,509.40831 L1200,0 L0,0 L0,357.75178 Z"></path>
+        </g>
+    </g>
+</svg>

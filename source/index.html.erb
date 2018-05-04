@@ -1,0 +1,127 @@
+---
+title: Welcome to Middleman
+---
+
+
+
+<header>
+  <section class="navcontainer">
+    <div class="logo">
+      <img src="https://d3qdc2zh3mwabb.cloudfront.net/assets/logo-a3c2a96a2bf2dd07f6bea2db79408414207e7438bbd604bf78301c46b92acf42.png">
+    </div>
+    <div class="spacer"></div>
+    <nav id="navcontainer">
+      <ul>
+        <li><a href="#">Candidate</a></li>
+        <li><a href="#">Employer</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li class="signup-button"><a href="#">Sign up</a></li>
+     </ul>
+    </nav>
+  </section>
+  <section class="header">
+    <div>
+      <h1>OfferZen Shirts</h1>
+      <h3>The infamous OfferZen shirts, now all in one place</h3>
+    </div>
+     <img src="images/llama_header_image.png">
+    <div class="clearfix"></div>
+  </section>
+</header>
+
+<section class="intro">
+  <h2 class="intro">Holy shirt 🔥</h2>
+  <p>Here we can write a short intro?? Feel like our shirts have a really quirky character to it and that all aspects of this page needs to reflect that. Here we can write a short intro??</p>
+</section>
+
+<section class="card-section">
+  <ol class="cards">
+    <% data.shirts.first[1].each do |shirt| %>
+      <li>
+        <%= image_tag shirt.image %>
+        <div class="card-content">
+        <h2><%= shirt.title %></h2>
+        <p><%= shirt.date %></p>
+        </div>
+      </li>
+    <% end %>
+  </ol>
+</section>
+
+<section class="number-section">
+  <ol class="number-items">
+    <li>
+     <span>15,600</span>
+     <p>Number of shirts printed</p>
+    </li>
+    <li>
+     <span>17</span>
+     <p>Number of shirt designs</p>
+    </li>
+    <li>
+     <span>43</span>
+     <p>Number of events attended</p>
+    </li>
+    <li>
+     <span>246</span>
+     <p>Hours spent on shirt designs</p>
+    </li>
+  </ol>
+</section>
+
+<section class="share-section">
+ <img src="images/share_party_parrot.png"> 
+ <h3>Share the shirt out of this</h3>
+ <a href="#">
+  <span class="fa-stack fa-lg">
+   <i class="fa fa-circle fa-stack-2x"></i>
+   <i class="fa fa-twitter fa-stack-1x"></i>
+  </span>
+ </a>
+ <a href="#">
+  <span class="fa-stack fa-lg">
+   <i class="fa fa-circle fa-stack-2x"></i>
+   <i class="fa fa-facebook fa-stack-1x"></i>
+  </span>
+ </a>
+</section>
+
+<hr>
+
+<footer>
+  <div class="footer-col-1">
+    <img src="https://d3qdc2zh3mwabb.cloudfront.net/assets/homepage/offerzen-grey@2x-d2d88169ba8e8ae5747bbe10aa096b49354856b5107d9ed16ff125cdc32242ad.png" width="117">
+  </div>
+  <div class="footer-col-2">
+    <h4>Candidate</h4>
+    <ul>
+      <a href="#"><li>How it works</li></a>
+      <a href="#"><li>Guides</li></a>
+      <a href="#"><li>Roles</li></a>
+      <a href="#"><li>Meet our talent advisors</li></a>
+    </ul>
+  </div>
+  <div class="footer-col-3">
+    <h4>Company</h4>
+    <ul>
+      <a href="#"><li>How it works</li></a>
+      <a href="#"><li>Guides</li></a>
+      <a href="#"><li>Company directory</li></a>
+      <a href="#"><li>Meet our hiring experts</li></a>
+    </ul>
+  </div>
+  <div class="footer-col-4">
+    <h4>OfferZen</h4>
+    <ul>
+      <a href="#"><li>Meet the team</li></a>
+      <a href="#"><li>OfferZen story</li></a>
+      <a href="#"><li>Careers at OfferZen</li></a>
+      <a href="#"><li>Blog</li></a>
+    </ul>
+  </div>
+    <div class="footer-col-5">
+    <h4>Social</h4>
+  </div>
+
+</footer>
